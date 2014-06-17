@@ -11,7 +11,7 @@
 ## 3.  set the value of the inverse-matrix
 ## 4.  get the value of the inverse-matrix
 ##
-## makeVector-example provide in README.md, was used as a base to this function
+## makeVector-example provided in README.md, was used as a base to this function
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
     set <- function(y) {
@@ -33,6 +33,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## the data and sets the value of the inverse matrix in the cache via the `setinvmatrix`
 ## function.
 
+## cachemean-example provided in README.md, was used as a base to this function
 cacheSolve <- function(x=matrix(), ...) {
         ## Return a matrix that is the inverse of 'x'
     m <- x$getinvmatrix()
@@ -46,3 +47,6 @@ cacheSolve <- function(x=matrix(), ...) {
     m
 }
 
+## I have to admitt that without the examples described in README.md file 
+## it would have taken a lot of time and effort to write these two functions
+## Anyway ....
